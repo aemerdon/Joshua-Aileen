@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aileen & Joshua | Wedding Invitation</title>
+<meta name="description" content="Wedding invitation of Aileen and Joshua — December 25, 2026.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+:root{
+  --cream:#f7f0e5;
+  --paper:#fffaf2;
+  --brown:#6b4b35;
+  --dark:#3e2c20;
+  --tan:#b89470;
+  --sage:#78816b;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  color:var(--dark);
+  background:var(--cream);
+  font-family:Montserrat,Arial,sans-serif;
+}
+section{padding:75px 20px}
+.container{max-width:950px;margin:auto}
+.hero{
+  min-height:100vh;
+  position:relative;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  padding:0;
+  overflow:hidden;
+  background:#4b4036;
+}
+.hero img{
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 45%;
+  filter:brightness(.62);
+}
+.hero::after{
+  content:"";
+  position:absolute;inset:0;
+  background:linear-gradient(transparent 25%,rgba(40,27,18,.75) 100%);
+}
+.hero-content{
+  position:relative;
+  z-index:2;
+  text-align:center;
+  color:white;
+  padding:35px 20px 65px;
+}
+.kicker{
+  letter-spacing:5px;
+  text-transform:uppercase;
+  font-size:12px;
+  margin-bottom:12px;
+}
+.names{
+  font-family:"Cormorant Garamond",serif;
+  font-size:clamp(58px,12vw,110px);
+  line-height:.82;
+  font-weight:500;
+  margin:0;
+}
+.amp{font-size:.55em;font-style:italic}
+.date{
+  margin-top:25px;
+  font-size:14px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+.ornament{font-size:25px;margin:16px 0}
+.card{
+  background:var(--paper);
+  border:1px solid rgba(107,75,53,.18);
+  box-shadow:0 12px 40px rgba(62,44,32,.08);
+  padding:45px 30px;
+}
+.center{text-align:center}
+.script{
+  font-family:"Cormorant Garamond",serif;
+  font-size:52px;
+  font-weight:500;
+  margin:5px 0 15px;
+}
+.lead{max-width:650px;margin:0 auto;line-height:1.9;font-size:15px}
+.divider{width:70px;height:1px;background:var(--tan);margin:25px auto}
+.details{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+  margin-top:35px;
+}
+.detail{
+  text-align:center;
+  padding:25px 15px;
+  border-top:1px solid #d9c5ad;
+  border-bottom:1px solid #d9c5ad;
+}
+.detail h3{
+  font-family:"Cormorant Garamond",serif;
+  font-size:30px;
+  margin:0 0 8px;
+}
+.detail p{margin:5px 0;font-size:13px;line-height:1.7}
+.label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--sage)}
+.countdown{
+  display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:30px;
+}
+.timebox{min-width:85px;padding:15px 10px;background:#efe3d2}
+.timebox strong{display:block;font-family:"Cormorant Garamond",serif;font-size:35px}
+.timebox span{font-size:9px;letter-spacing:2px;text-transform:uppercase}
+.dress{
+  background:var(--brown);
+  color:white;
+}
+.dress .divider{background:#d6b993}
+.dress .label{color:#e4d4bf}
+.dress h2{font-family:"Cormorant Garamond",serif;font-size:55px;margin:5px 0 15px}
+.gallery{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+}
+.gallery img{
+  width:100%;
+  display:block;
+  max-height:700px;
+  object-fit:cover;
+}
+.rsvp{
+  background:#eee4d5;
+}
+.button{
+  display:inline-block;
+  padding:14px 26px;
+  margin-top:20px;
+  background:var(--brown);
+  color:white;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:11px;
+}
+.footer{
+  text-align:center;
+  padding:45px 20px;
+  background:#33251b;
+  color:#eee2d3;
+}
+.footer .names{font-size:55px}
+.small{font-size:11px;letter-spacing:2px;text-transform:uppercase}
+@media(max-width:650px){
+  section{padding:55px 15px}
+  .details{grid-template-columns:1fr}
+  .card{padding:35px 20px}
+  .hero img{object-position:center center}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img src="assets/couple.jpg" alt="Aileen and Joshua">
+  <div class="hero-content">
+    <div class="kicker">We are getting married</div>
+    <h1 class="names">Aileen <span class="amp">&</span> Joshua</h1>
+    <div class="ornament">✦</div>
+    <div class="date">December 25, 2026 · Pasig City</div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="card center">
+      <div class="label">Together with their families</div>
+      <h2 class="script">You are invited</h2>
+      <div class="divider"></div>
+      <p class="lead">
+        With joyful hearts, Aileen and Joshua invite you to share
+        in the celebration of their wedding as they begin a beautiful
+        new chapter together.
+      </p>
+      <div class="details">
+        <div class="detail">
+          <div class="label">Ceremony</div>
+          <h3>3:00 PM</h3>
+          <p>Pasig City</p>
+        </div>
+        <div class="detail">
+          <div class="label">Reception</div>
+          <h3>5:00 PM</h3>
+          <p>Pasig City</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container center">
+    <div class="label">Counting the days</div>
+    <h2 class="script">Until forever</h2>
+    <div id="countdown" class="countdown"></div>
+  </div>
+</section>
+
+<section class="dress">
+  <div class="container center">
+    <div class="label">Our celebration</div>
+    <h2>Rustic</h2>
+    <div class="divider"></div>
+    <p class="lead">
+      We invite you to come dressed in rustic-inspired attire
+      and celebrate this special day surrounded by love, warmth,
+      and good company.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="center">
+      <div class="label">Our moments</div>
+      <h2 class="script">A little piece of our story</h2>
+    </div>
+    <div class="gallery">
+      <img src="assets/couple.jpg" alt="Aileen and Joshua together">
+    </div>
+  </div>
+</section>
+
+<section class="rsvp">
+  <div class="container">
+    <div class="card center">
+      <div class="label">Kindly respond</div>
+      <h2 class="script">RSVP</h2>
+      <div class="divider"></div>
+      <p class="lead">
+        Your presence is one of the greatest gifts we could receive.
+        Kindly confirm your attendance through CreatEcards.
+      </p>
+      <a class="button" href="mailto:">RSVP via CreatEcards</a>
+      <p style="font-size:11px;margin-top:15px;color:#806a55;">
+        RSVP contact: CreatEcards
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="small">With love</div>
+  <div class="names">Aileen & Joshua</div>
+  <div class="small">December 25, 2026 · Pasig City</div>
+</footer>
+
+<script>
+const weddingDate = new Date("December 25, 2026 15:00:00").getTime();
+const countdown = document.getElementById("countdown");
+
+function updateCountdown(){
+  const now = new Date().getTime();
+  const distance = weddingDate - now;
+  if(distance <= 0){
+    countdown.innerHTML = '<div class="timebox"><strong>♥</strong><span>Today</span></div>';
+    return;
+  }
+  const days = Math.floor(distance/(1000*60*60*24));
+  const hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+  const minutes = Math.floor((distance%(1000*60*60))/(1000*60));
+  const seconds = Math.floor((distance%(1000*60))/1000);
+  countdown.innerHTML = `
+    <div class="timebox"><strong>${days}</strong><span>Days</span></div>
+    <div class="timebox"><strong>${hours}</strong><span>Hours</span></div>
+    <div class="timebox"><strong>${minutes}</strong><span>Minutes</span></div>
+    <div class="timebox"><strong>${seconds}</strong><span>Seconds</span></div>`;
+}
+updateCountdown();
+setInterval(updateCountdown,1000);
+</script>
+</body>
+</html>
